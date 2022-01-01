@@ -128,7 +128,7 @@ img
 {
     display: flex;
     justify-content: center;
-    padding: 13px;
+    align-items: center;
     width: 250px;
     height: 60px;
     background: #FECE2F;
@@ -140,7 +140,7 @@ img
     line-height: 30px;
     color: #FFFFFF;
     cursor: pointer;
-    transition: 1.5s ease;
+    transition: .2s ease;
     transition-delay: 0.05s;
 }
 .prewiew_button:hover
@@ -150,6 +150,8 @@ img
 }
 .prewiew_button_area
 {
+    display: flex;
+    justify-content: center;
     padding: 13px;
     width: 250px;
     height: 60px;
@@ -175,7 +177,7 @@ img
 .effect_prew
 {
     position: absolute;
-    left:10%;
+    left:5%;
     top:80px;
     font-style: normal;
     font-weight: 600;
